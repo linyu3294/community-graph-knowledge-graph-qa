@@ -3,7 +3,7 @@ Implementing two data mining algorithms. knowledge graph and community detection
 
 
 
-Social Community Detection
+Social Community Detection --
 Implement a community detection algorithm on the Flicker Graph. Use the betweenes idea on edges and the Girvan–Newman Algorithm. 
 The original dataset graph has more than 5M edges; in DM_resources there are 4 different sub-sampled graphs with edge counts from 2K to 600K; 
 you can use these if the original is too big.
@@ -15,7 +15,7 @@ hese are useful as a way to evaluate communities you obtain
 
 
 
-Knowledge Base Question Answering
+Knowledge Base Question Answering --
 Given is knowledge graph with entities and relations, questions with starting entity and answers, and their word embedding . For each question, navigate the graph from the start entiry outwards until you find appropriate answer entities.
 
 there might be multiple answers correct, use F1 to evaluate
